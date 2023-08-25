@@ -1,0 +1,61 @@
+/*login*/
+main .Login-b {
+    overflow: auto;
+    align-items: center;
+    border-radius: 8px;
+    color: #000000;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 1px 1px 10px 0px rgb(206, 202, 202);
+    padding: 20px;
+}
+
+main .Login-b button {
+    min-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+main .Login-b form input {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    background-color: transparent;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+main section .Login-b form h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 31px;
+}
+
+main .Login-b form .form-control:focus {
+    border-radius: 3px;
+}
+
+main .Login-b form a:focus {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+main .Login-b form a:hover {
+    text-decoration: none;
+}
+
+label{
+font-size: 15px;
+}
+form a {
+    font-size: 13px;
+}
+
+form a {
+    font-size: 13px;
+}
+span {
+    font-size: 13px;
+}
+ 

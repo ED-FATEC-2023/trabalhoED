@@ -1,0 +1,244 @@
+/*Geral do site*/
+
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Botao-Principais 
+{
+  color: #ffffff;
+  background-color: #dc3545;
+  margin-top: 0.2rem;
+  width: 10vw;
+  height: 3vw;
+  border-radius: 6px;
+  border: 0;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 3vw;
+}
+
+.Botao-Principais:hover 
+{
+  color: #ffffff !important;
+  background-color: #aa2d39 !important;
+  text-decoration: none;
+}
+
+/*================================================================================*/
+
+/*Tema claro do site*/
+
+body 
+{
+  background-color: #c7c7c7;
+  color: #000000;
+  transition: background-color 0.3s ease;
+}
+
+#navbar
+{
+  background-color: #dddddd !important;
+  color: #000000 !important;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+/*================================================================================*/
+
+/*Tema escuro do site*/
+
+.dark-mode 
+{
+  background-color: #353740;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode #navbar 
+{
+  background-color: #444654 !important;
+  color: #ffffff !important;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode .Texto-Dark
+{
+  color: #ffffff !important;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode #projects
+{
+  background-color: #444654;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode .CardProjetos
+{
+  border-color: #dc3545 !important;
+  border: solid 1px;
+  transition: 0.2s ease;
+}
+
+.dark-mode .CardProjetos:hover
+{
+  border-color: #dc3545 !important;
+  border: solid 1px;
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.366);
+}
+
+.dark-mode .Texto-DarkProjeto
+{
+  color: #000000;
+}
+
+.dark-mode footer 
+{
+  background-color: #353740;
+  margin-bottom: 2.5rem;
+}
+
+/*================================================================================*/
+
+/*Nav do site*/
+
+.LogoSite
+{
+  width: 50px; /* Largura Logo */
+  height: auto; /* Altura Automatica*/
+
+  margin-right: 10px;
+}
+
+.Botao-Nav
+{
+  color: #000000 !important;
+  font-weight: bold;
+}
+
+.Botao-Nav:hover 
+{
+  color: #dc3545 !important;
+  font-weight: bold;
+}
+
+/*================================================================================*/
+
+/*Sobre o site*/
+
+.ContainerSobre
+{
+  margin-top: 6rem;
+  margin-bottom: 7rem;
+}
+
+/*================================================================================*/
+
+/*Projetos*/
+
+#projects
+{
+  background-color: #dddddd;
+  box-shadow: 0 -12px 12px rgba(0, 0, 0, 0.1);
+}
+
+.TituloProjetos
+{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.CardProjetos
+{
+  transition: 0.2s ease;
+}
+
+.CardProjetos:hover
+{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.183);
+}
+
+.BordaDetalheVermelho
+{
+  border-color: #dc3545 !important;
+  border: solid 1.5px;
+}
+
+/*================================================================================*/
+
+/*Footer do site*/
+  
+footer 
+{
+  background-color: #c7c7c7;
+  margin-bottom: 2.5rem;
+}
+
+/*================================================================================*/
+
+/*Area de Explicações*/
+
+@font-face 
+{
+    font-family: 'Montserrat-Regular';
+    src: url('../../font/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'Montserrat-extra';
+    src: url('../../font/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+pre 
+{
+    margin: 0 auto;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+code 
+{
+    display: block;
+    background-color: #000000;
+}
+
+/*Explicação letras*/
+.card-title { font-size: 22px; font-weight: bold; }
+.card-text { font-size: 18px; }
+
+/* Cores do CMD */
+.vermelho {color: red; font-size: 14px;}
+.azul {color: blue; font-size: 14px;}
+.amarelo {color: yellow; font-size: 14px;}
+.verde {color: green; font-size: 14px;}
+
+.rosa {color: pink; font-size: 14px;}
+.roxo {color: purple; font-size: 14px;}
+.laranja {color: orange; font-size: 14px;}
+.cinza {color: gray; font-size: 14px;}
+.preto {color: #000000; font-size: 14px;}
+.branco {color: #fff; font-size: 14px;}
+.lilas {color: #a566ff; font-size: 14px;}
+.turquesa {color: #40e0d0;font-size: 14px;}  
+.dourado {color: #ffd700;font-size: 14px;}
+  
+.vermelho-escuro {color: #8b0000;}
+.azul-claro {color: lightblue;}
+.verde-claro {color: lightgreen; font-size: 14px;}
+.amarelo-claro {color: lightyellow; font-size: 14px;}
+.cinza-claro {color: lightgray; font-size: 14px;}
+
