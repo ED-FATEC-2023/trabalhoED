@@ -1,3 +1,7 @@
+<?php
+  session_start();
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -38,6 +42,12 @@
             <li class="nav-item">
               <a class="nav-link Botao-Nav Texto-Dark" href="Sobre.php">Sobre</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link Botao-Nav Texto-Dark" href="quiz/index.php">QUIZ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Botao-Nav Texto-Dark" href="rank.php">RANK</a>
+            </li>
           </ul>
         </div>
 
@@ -60,7 +70,15 @@
           <div class="row">
             <div class="col-md-6 mb-4 mb-md-0">
 
-              <h2 class="font-weight-bold">Bem-vindo!</h2>
+              <h2 class="font-weight-bold">Bem-vindo!
+                <?php
+                      if (isset($_SESSION["nome"])) {
+                      // Se o usuário estiver logado, exiba a saudação e o link para sair
+                      echo "" . $_SESSION["nome"];
+                     echo "<a class='sair' href='../model/sair.php'>  SAIR</a>";
+                    }
+                ?>
+              </h2>
 
               <p class="mt-4"> Este site foi desenvolvido por um grupo de alunos da Faculdade de Tecnologia 
               (Fatec) dedicados a ensinar sobre o conceito de Lista Simplesmente Encadeada. Nosso objetivo é proporcionar a você 
