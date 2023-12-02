@@ -9,47 +9,47 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 
-    <title>C# na Lingua - Home</title>
+    <title>Home</title>
 
   </head>
 
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light" id="navbar" style="background-color: #dcdcdc;">
-      <div class="container">
-
-        <img src="../IMG/Logo.png" alt="Logo - C# na lingua" class="LogoSite">
-        <span class="navbar-brand font-weight-bold Texto-Dark TituloSiteNAV">Lista Simplesmente Encadeada</span>
-
-        <!--====================-->
-
-        <div class="collapse navbar-collapse text-right" style="display: flex; justify-content: right; margin-right: 5vw;">
-          <ul class="navbar-nav Fundo-Botoes-Nav">
-            <li class="nav-item">
-              <a class="nav-link Botao-Nav Texto-Dark" href="Home.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link Botao-Nav Texto-Dark" href="Projetos.php">Projetos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link Botao-Nav Texto-Dark" href="Alunos.php">Alunos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link Botao-Nav Texto-Dark" href="Sobre.php">Sobre</a>
-            </li>
-          </ul>
-        </div>
-
-        <!--====================-->
-
-        <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-          <button type="button" id="toggleButton" class="Botao-Principais" style="outline: none !important;">Trocar Tema</button>
-        </form>
-
-      </div>
-    </nav>
-  </header>
+<header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar" style="background-color: #dcdcdc;">
+            <div class="container">
+                <span class="navbar-brand font-weight-bold Texto-Dark TituloSiteNAV">Estrutura de dados</span>
+                <div class="collapse navbar-collapse text-right"
+                    style="display: flex; justify-content: right; margin-right: 5vw;">
+                    <ul class="navbar-nav Fundo-Botoes-Nav">
+                        <li class="nav-item">
+                            <a class="nav-link Botao-Nav Texto-Dark" href="Home.php">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    ASSUNTOS
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="lista.php">Lista simplesmente encadeada</a>
+                                    <a class="dropdown-item" href="aBinaria.php">Arvore binaria de busca</a>
+                                    <a class="dropdown-item" href="aB.php">Arvore B</a>
+                                    <a class="dropdown-item" href="aTrie.php">Arvore Trie</a>
+                                    <a class="dropdown-item" href="aAVL.php">Arvore AVL</a>
+                                    <a class="dropdown-item" href="aRubro.php">Arvore Rubro-Negra</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                    <button type="button" id="toggleButton" class="Botao-Principais"
+                        style="outline: none !important;">Trocar Tema</button>
+                </form>
+            </div>
+        </nav>
+    </header>
 
   <!--================================================================================-->
 
@@ -63,12 +63,10 @@
               <h2 class="font-weight-bold">Bem-vindo!</h2>
 
               <p class="mt-4"> Este site foi desenvolvido por um grupo de alunos da Faculdade de Tecnologia 
-              (Fatec) dedicados a ensinar sobre o conceito de Lista Simplesmente Encadeada. Nosso objetivo é proporcionar a você 
+              (Fatec) dedicados a ensinar sobre o conceito de Estruturas de . Nosso objetivo é proporcionar a você 
               um aprendizado completo e prático, fornecendo uma base sólida nesse tópico fundamental 
               para o desenvolvimento de software.</p>
 
-              <a href="Sobre.php" class="Botao-Principais">Ler Mais</a>
-            
             </div>
           </div>
         </div>
@@ -78,117 +76,15 @@
 
     <section id="projects">
       <div class="container FundoProjetos">
-
         <div class="row">
-
           <div class="col-md-12">
-            <h2 class="text-center TituloProjetos">Lista Simplesmente Encadeada</h2>
+            <h2 class="text-center TituloProjetos">SITE PARA EXPLICACAO DE ESTRUTURAS DE DADOS</h2>
           </div>
-
         </div>
     
         <!--====================-->
 
-        <div class="row ContainerProjetos">
 
-          <div class="col-md-6">
-            <div class="card mb-4 CardProjetos">
-              <img class="card-img-top BordaDetalheVermelho" src="https://via.placeholder.com/300x200" alt="Card image cap">
-              <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
-
-                <h5 class="card-title">Adicionando no começo da lista</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum augue sed massa iaculis.</p>
-                
-                <a href="AdicionarInicioLista.php" class="Botao-Principais">Aprender</a>
-
-              </div>
-            </div>
-          </div>
-
-          <!--====================-->
-
-          <div class="col-md-6">
-            <div class="card mb-4 CardProjetos">
-              <img class="card-img-top BordaDetalheVermelho" src="https://via.placeholder.com/300x200" alt="Card image cap">
-              <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
-
-                <h5 class="card-title">Adicionando no fim da lista</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum augue sed massa iaculis.</p>
-                
-                <a href="AdicionarFimLista.php" class="Botao-Principais">Aprender</a>
-
-
-              </div>
-            </div>
-          </div>
-
-          <!--====================-->
-
-          <div class="col-md-6">
-            <div class="card mb-4 CardProjetos">
-              <img class="card-img-top BordaDetalheVermelho" src="https://via.placeholder.com/300x200" alt="Card image cap">
-              <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
-                
-              <h5 class="card-title">Removendo no começo da lista</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum augue sed massa iaculis.</p>
-                
-                <a href="RemoverInicioLista.php" class="Botao-Principais">Aprender</a>
-              
-              </div>
-            </div>
-          </div>
-
-          <!--====================-->
-
-          <div class="col-md-6">
-            <div class="card mb-4 CardProjetos">
-              <img class="card-img-top BordaDetalheVermelho" src="https://via.placeholder.com/300x200" alt="Card image cap">
-              <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
-                
-                <h5 class="card-title">Removendo no fim da lista</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum augue sed massa iaculis.</p>
-               
-                <a href="RemoverFimLista.php" class="Botao-Principais">Aprender</a>
-              
-              </div>
-            </div>
-          </div>
-
-          <!--====================-->
-
-          <div class="col-md-6">
-            <div class="card mb-4 CardProjetos">
-              <img class="card-img-top BordaDetalheVermelho" src="https://via.placeholder.com/300x200" alt="Card image cap">
-              <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
-                
-                <h5 class="card-title">Pesquisando um valor na lista</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum augue sed massa iaculis.</p>
-                
-                <a href="PesquisarLista.php" class="Botao-Principais">Aprender</a>
-              
-              </div>
-            </div>
-          </div>
-
-          <!--====================-->
-
-          <div class="col-md-6">
-            <div class="card mb-4 CardProjetos">
-              <img class="card-img-top BordaDetalheVermelho" src="https://via.placeholder.com/300x200" alt="Card image cap">
-              <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
-                
-                <h5 class="card-title">Imprimindo os valores da lista</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum augue sed massa iaculis.</p>
-                
-                <a href="ImprimirLista.php" class="Botao-Principais">Aprender</a>
-              
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
     </section>
 
   </main>

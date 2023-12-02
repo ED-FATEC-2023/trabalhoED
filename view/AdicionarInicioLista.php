@@ -14,60 +14,46 @@
   </head>
 
 <body>
-
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light" id="navbar" style="background-color: #dcdcdc;">
-      <div class="container">
-
-        <img src="../IMG/Logo.png" alt="Logo - C# na lingua" class="LogoSite">
-        <span class="navbar-brand font-weight-bold Texto-Dark">Lista Simplesmente Encadeada</span>
-
-        <!--====================-->
-
-        <div class="collapse navbar-collapse text-right" style="display: flex; justify-content: right; margin-right: 5vw;">
-          <ul class="navbar-nav Fundo-Botoes-Nav">
-            <li class="nav-item">
-              <a class="nav-link Botao-Nav Texto-Dark" href="Home.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link Botao-Nav Texto-Dark" href="Projetos.php">Projetos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link Botao-Nav Texto-Dark" href="Alunos.php">Alunos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link Botao-Nav Texto-Dark" href="Sobre.php">Sobre</a>
-            </li>
-          </ul>
-        </div>
-
-        <!--====================-->
-
-        <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-          <button type="button" id="toggleButton" class="Botao-Principais">Trocar Tema</button>
-        </form>
-
-      </div>
-    </nav>
-  </header>
+<header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar" style="background-color: #dcdcdc;">
+            <div class="container">
+                <span class="navbar-brand font-weight-bold Texto-Dark TituloSiteNAV">Estrutura de dados</span>
+                <div class="collapse navbar-collapse text-right"
+                    style="display: flex; justify-content: right; margin-right: 5vw;">
+                    <ul class="navbar-nav Fundo-Botoes-Nav">
+                        <li class="nav-item">
+                            <a class="nav-link Botao-Nav Texto-Dark" href="Home.php">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    ASSUNTOS
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="lista.php">Lista simplesmente encadeada</a>
+                                    <a class="dropdown-item" href="aBinaria.php">Arvore binaria de busca</a>
+                                    <a class="dropdown-item" href="aB.php">Arvore B</a>
+                                    <a class="dropdown-item" href="aTrie.php">Arvore Trie</a>
+                                    <a class="dropdown-item" href="aAVL.php">Arvore AVL</a>
+                                    <a class="dropdown-item" href="aRubro.php">Arvore Rubro-Negra</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                    <button type="button" id="toggleButton" class="Botao-Principais"
+                        style="outline: none !important;">Trocar Tema</button>
+                </form>
+            </div>
+        </nav>
+    </header>
 
   <!--================================================================================-->
 
   <main>
 
-    <section class="ContainerSobre">
-        <div class="container my-5 d-flex justify-content-center align-items-center flex-column" style="display: flex; justify-content: center; align-items: center; flex-direction: column">
-          <div class="row">
-            <div class="col-md-6 mb-4 mb-md-0">
-
-              <h2 class="font-weight-bold">Adicionando no começo da Lista</h2>
-
-              <p class="mt-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eligendi velit temporibus, ullam, corrupti praesentium eum quos enim nobis, odit iure? Vel provident eum accusamus, qui quas iusto explicabo quod?</p>
-            
-            </div>
-          </div>
-        </div>
-    </section>
 
     <!--================================================================================-->
 
@@ -90,7 +76,6 @@
 
                     <div class="col-md-6">
                         <div class="card mb-4 CardProjetos">
-                            <img class="card-img-top BordaDetalheVermelho" src="https://via.placeholder.com/300x200" alt="Card image cap">
                             <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
 
                                 <h5 class="card-title">Explicação do Codigo</h5>

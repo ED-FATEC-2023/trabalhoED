@@ -14,7 +14,7 @@ $result_usuario = mysqli_query($conn, $result_usuario);
 
 if (mysqli_insert_id($conn))
 {
-    $_SESSION['msg'] = "<p style='color:blue; font-family:arial;
+    $_SESSION['msg'] = "<p style='color:blue; font-family: 'Poppins', sans-serif;;
     font-size: 10.0px; text-align: center ;'> *Cadastro realizado com sucesso!</p>";
     
     header("Location: ../view/Home.php");

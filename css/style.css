@@ -1,10 +1,12 @@
 /*Geral do site*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 * 
 {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
 }
 
 .Botao-Principais 
@@ -185,21 +187,6 @@ footer
 
 /*Area de Explicações*/
 
-@font-face 
-{
-    font-family: 'Montserrat-Regular';
-    src: url('../../font/Montserrat-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face 
-{
-    font-family: 'Montserrat-extra';
-    src: url('../../font/Montserrat-ExtraBold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 pre 
 {

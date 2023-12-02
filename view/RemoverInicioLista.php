@@ -15,38 +15,23 @@
 
 <body>
 
-  <header>
+<header>
     <nav class="navbar navbar-expand-lg navbar-light" id="navbar" style="background-color: #dcdcdc;">
       <div class="container">
-
-        <img src="../IMG/Logo.png" alt="Logo - C# na lingua" class="LogoSite">
-        <span class="navbar-brand font-weight-bold Texto-Dark">Lista Simplesmente Encadeada</span>
-
-        <!--====================-->
-
+        <span class="navbar-brand font-weight-bold Texto-Dark">Estrutura de dados</span>
         <div class="collapse navbar-collapse text-right" style="display: flex; justify-content: right; margin-right: 5vw;">
           <ul class="navbar-nav Fundo-Botoes-Nav">
             <li class="nav-item">
               <a class="nav-link Botao-Nav Texto-Dark" href="Home.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link Botao-Nav Texto-Dark" href="Projetos.php">Projetos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link Botao-Nav Texto-Dark" href="Alunos.php">Alunos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link Botao-Nav Texto-Dark" href="Sobre.php">Sobre</a>
+              <a class="nav-link Botao-Nav Texto-Dark" href="Assuntos.php">Assuntos</a>
             </li>
           </ul>
         </div>
-
-        <!--====================-->
-
         <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
           <button type="button" id="toggleButton" class="Botao-Principais">Trocar Tema</button>
         </form>
-
       </div>
     </nav>
   </header>
@@ -55,19 +40,6 @@
 
   <main>
 
-    <section class="ContainerSobre">
-        <div class="container my-5 d-flex justify-content-center align-items-center flex-column" style="display: flex; justify-content: center; align-items: center; flex-direction: column">
-          <div class="row">
-            <div class="col-md-6 mb-4 mb-md-0">
-
-              <h2 class="font-weight-bold">Removendo no começo da Lista</h2>
-
-              <p class="mt-4"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis doloribus, cumque sequi officiis fugiat temporibus illo dicta obcaecati laudantium quaerat, quidem expedita incidunt debitis deleniti perspiciatis quibusdam vero itaque. Nihil.</p>
-            
-            </div>
-          </div>
-        </div>
-    </section>
 
     <!--================================================================================-->
 
@@ -90,7 +62,6 @@
 
                     <div class="col-md-6">
                         <div class="card mb-4 CardProjetos">
-                            <img class="card-img-top BordaDetalheVermelho" src="https://via.placeholder.com/300x200" alt="Card image cap">
                             <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
 
                                 <h5 class="card-title">Explicação do Codigo</h5>
