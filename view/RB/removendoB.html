@@ -7,15 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 
-    <title>Home</title>
 
 </head>
 
 <body>
-
-<header>
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light" id="navbar" style="background-color: #dcdcdc;">
             <div class="container">
                 <span class="navbar-brand font-weight-bold Texto-Dark TituloSiteNAV">Estrutura de dados</span>
@@ -32,12 +30,12 @@
                                     ASSUNTOS
                                 </button>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="lista.php">Lista simplesmente encadeada</a>
-                                    <a class="dropdown-item" href="aBinaria.php">Arvore binaria de busca</a>
-                                    <a class="dropdown-item" href="aB.php">Arvore B</a>
-                                    <a class="dropdown-item" href="aTrie.php">Arvore Trie</a>
-                                    <a class="dropdown-item" href="aAVL.php">Arvore AVL</a>
-                                    <a class="dropdown-item" href="aRubro.php">Arvore Rubro-Negra</a>
+                                    <a class="dropdown-item" href="../lista.php">Lista simplesmente encadeada</a>
+                                    <a class="dropdown-item" href="../aBinaria.php">Arvore binaria de busca</a>
+                                    <a class="dropdown-item" href="../aB.php">Arvore B</a>
+                                    <a class="dropdown-item" href="../aTrie.php">Arvore Trie</a>
+                                    <a class="dropdown-item" href="../aAVL.php">Arvore AVL</a>
+                                    <a class="dropdown-item" href="../aRubro.php">Arvore Rubro-Negra</a>
                                 </div>
                             </div>
                         </li>
@@ -55,66 +53,57 @@
 
     <main>
 
+
         <!--================================================================================-->
 
         <section id="projects">
             <div class="container FundoProjetos">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="text-center TituloProjetos">Arvore B</h1>
-                        <h2 class="text-center TituloProjetos">Árvores B são estruturas de dados em árvore, especialmente projetadas para armazenar grandes quantidades de dados em disco de maneira eficiente.</h2>
-                    </div>
-                </div>
-                <img class="card-img-top BordaDetalheVermelho" src="../IMG/ArvoreB1.png" alt="Card image cap">
 
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <h2 class="text-center TituloProjetos">Removendo em uma Arvore Rubro-Negra</h2>
+                    </div>
+
+                </div>
 
                 <!--====================-->
-                <div class="row ContainerProjetos">
 
-                    <div class="col-md-6">
-                        <div class="card mb-4 CardProjetos">
-                            <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
+                <div class="section-cor2">
+                    <div class="container FundoProjetos">
+                        <div class="row">
 
-                                <h5 class="card-title">Inserindo em uma Arvore B</h5>
-                                <a href="B/inserindoB.html" class="Botao-Principais">Aprender</a>
+                            <div class="col-md-6">
+                                <div class="card mb-4 CardProjetos">
+                                    <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
 
+                                        <h5 class="card-title">Explicação</h5>
+
+                                        <p class="card-text">
+                                        <ul>
+                                            <li>
+                                                Veja que a operação é semelhante a inserção, 
+                                                ele busca o elemento a ser excluído através de comparações 
+                                                de > ou <, mantendo sempre o padrão do maior elemento ir 
+                                                para direita e o menor para esquerda.
+                                            </li>
+                                        </ul>
+                                        </p>
+
+                                    </div>
+                                </div>
                             </div>
+
+                            <div class="col-md-6">
+                                <img class="card-img-top BordaDetalheVermelho" src="../../IMG/rbRemove.gif"
+                                    alt="Card image cap">
+                            </div>
+
                         </div>
                     </div>
-
-                    <!--====================-->
-
-                    <div class="col-md-6">
-                        <div class="card mb-4 CardProjetos">
-                            <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
-
-                                <h5 class="card-title">Busca em arvore B</h5>
-                                <a href="B/buscaB.html" class="Botao-Principais">Aprender</a>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--====================-->
-
-                    <div class="col-md-6">
-                        <div class="card mb-4 CardProjetos">
-                            <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
-
-                                <h5 class="card-title">Removendo</h5>
-                                <a href="B/removendoB.html" class="Botao-Principais">Aprender</a>
-
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
 
             </div>
-
-
         </section>
 
     </main>

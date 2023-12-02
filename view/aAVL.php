@@ -61,10 +61,10 @@
             <div class="container FundoProjetos">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="text-center TituloProjetos">COLOCAR AVL AQUI</h2>
+                        <h1 class="text-center TituloProjetos">Arvore AVL</h1>
                     </div>
                 </div>
-                <img class="card-img-top BordaDetalheVermelho" src="../IMG/insereLista.png" alt="Card image cap">
+                <img class="card-img-top BordaDetalheVermelho" src="../IMG/ArvoreAVL.png" alt="Card image cap">
 
 
                 <!--====================-->
@@ -74,10 +74,8 @@
                         <div class="card mb-4 CardProjetos">
                             <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
 
-                                <h5 class="card-title">Adicionando no começo da lista</h5>
-                                <p class="card-text">Como gravar dados no comeco de uma lista.</p>
-
-                                <a href="AdicionarInicioLista.php" class="Botao-Principais">Aprender</a>
+                                <h5 class="card-title">Inserindo</h5>
+                                <a href="AVL/inserindoB.html" class="Botao-Principais">Aprender</a>
 
                             </div>
                         </div>
@@ -89,10 +87,8 @@
                         <div class="card mb-4 CardProjetos">
                             <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
 
-                                <h5 class="card-title">Adicionando no fim da lista</h5>
-                                <p class="card-text">Como gravar dados ao fim de uma lista.</p>
-
-                                <a href="AdicionarFimLista.php" class="Botao-Principais">Aprender</a>
+                                <h5 class="card-title">Busca</h5>
+                                <a href="AVL/buscaB.html" class="Botao-Principais">Aprender</a>
 
 
                             </div>
@@ -105,59 +101,13 @@
                         <div class="card mb-4 CardProjetos">
                             <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
 
-                                <h5 class="card-title">Removendo no começo da lista</h5>
-                                <p class="card-text">Como remover dados que estao no comeco de uma lista.</p>
-
-                                <a href="RemoverInicioLista.php" class="Botao-Principais">Aprender</a>
+                                <h5 class="card-title">Removendo</h5>
+                                <a href="AVL/removendoB.html" class="Botao-Principais">Aprender</a>
 
                             </div>
                         </div>
                     </div>
 
-                    <!--====================-->
-
-                    <div class="col-md-6">
-                        <div class="card mb-4 CardProjetos">
-                            <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
-
-                                <h5 class="card-title">Removendo no fim da lista</h5>
-                                <p class="card-text">Como remover dados que estao no fim da lista.</p>
-
-                                <a href="RemoverFimLista.php" class="Botao-Principais">Aprender</a>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--====================-->
-
-                    <div class="col-md-6">
-                        <div class="card mb-4 CardProjetos">
-                            <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
-
-                                <h5 class="card-title">Pesquisando um valor na lista</h5>
-                                <p class="card-text">Como fazer uma pesquisa especifica em uma lista.</p>
-
-                                <a href="PesquisarLista.php" class="Botao-Principais">Aprender</a>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--====================-->
-
-                    <div class="col-md-6">
-                        <div class="card mb-4 CardProjetos">
-                            <div class="card-body BordaDetalheVermelho Texto-DarkProjeto">
-
-                                <h5 class="card-title">Imprimindo os valores da lista</h5>
-                                <p class="card-text">Como mostrar os valores gravados na lista.</p>
-
-                                <a href="ImprimirLista.php" class="Botao-Principais">Aprender</a>
-
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
 
